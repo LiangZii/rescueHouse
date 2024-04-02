@@ -61,7 +61,7 @@
 
 2、 stm32接收到数据后，通过UART和WIFI模块，采用AT指令，把数据传输出去。
 
-![img](D:\Program Files\Typora\image\clip_image002.gif)     ![img](D:\Program Files\Typora\image\clip_image004.gif)
+![img](https://github.com/LiangZii/rescueHouse/blob/master/iamges/clip_image002.gif)     ![img](https://github.com/LiangZii/rescueHouse/blob/master/iamges/clip_image004.gif)
 
 ​          图3.1光照传感器BH1750                           图3.2 PM2.5传感器_PMS9003M
 
@@ -81,7 +81,7 @@ AP 模式：ESP8266模块作为热点，实现手机或电脑直接与模块通�
 
 STA+AP 模式：两种模式的共存模式，即可以通过互联网控制可实现无缝切换，方便操作。
 
-![img](D:\Program Files\Typora\image\clip_image010.gif)
+![img](https://github.com/LiangZii/rescueHouse/blob/master/iamges/clip_image010.gif)
 
 <center>图3.3 ESP8266引脚图</center>
 
@@ -101,11 +101,11 @@ Payload：消息的内容
 
  
 
-![img](D:\Program Files\Typora\image\clip_image014.jpg)
+![img](https://github.com/LiangZii/rescueHouse/blob/master/iamges/clip_image014.jpg)
 
 <center>图3.4 MQTT的三种身份 
 
-![img](D:\Program Files\Typora\image\clip_image016.jpg)
+![img](https://github.com/LiangZii/rescueHouse/blob/master/iamges/clip_image016.jpg)
 
 <center>图3.5 MQTT消息传输过程
 
@@ -115,7 +115,7 @@ Stm32采集到数据后，通过WIFI模块把数据传输给后端，后端接�
 
  
 
-![img](D:\Program Files\Typora\image\clip_image018.gif)
+![img](https://github.com/LiangZii/rescueHouse/blob/master/iamges/clip_image018.gif)
 
 <center>图3.6 数据库E-R图
 
@@ -127,7 +127,7 @@ Stm32采集到数据后，通过WIFI模块把数据传输给后端，后端接�
 
 用户进入平台后即进入总体概况界面，可以直接查看相关总体信息，如：总体概览、救援仓台账、环境监测、故障报警与检修等。界面如下图1所示。
 
-![image-20240402103424440](D:\Program Files\Typora\image\image-20240402103424440.png)
+![image-20240402103424440](https://github.com/LiangZii/rescueHouse/blob/master/iamges/image-20240402103424440.png)
 
 
 
@@ -135,15 +135,15 @@ Stm32采集到数据后，通过WIFI模块把数据传输给后端，后端接�
 
 实时通过后端服务现实当前已部署救援仓的基本信息，包括救援仓ID、所属位置，当前报警数；以及详细信息，包括剩余电量、经纬度、温度、湿度、光照强度、PM2.5等环境数值。同时调用**百度地图API**，在一张地图中宏观的展示当前已部署且正在运行的救援仓的位置及信息。并对含有报警问题的救援仓提供特殊处理，以达到宏观查看和处理含有问题的救援仓。其实现效果如下图2和图3所示：
 
-![image-20240402103619662](D:\Program Files\Typora\image\image-20240402103619662.png)
+![image-20240402103619662](https://github.com/LiangZii/rescueHouse/blob/master/iamges/image-20240402103619662.png)
 
-![image-20240402103625675](D:\Program Files\Typora\image\image-20240402103625675.png)
+![image-20240402103625675](https://github.com/LiangZii/rescueHouse/blob/master/iamges/image-20240402103625675.png)
 
 ## 4.3 环境监测
 
 该页面可以选择相应的救援仓以获取当前位置的PM2.5、温度、湿度、光照强度等关键环境信息，并配合Echarts生成统计信息和图标，值观展示最近变化。如下图4所示。
 
-![image-20240402103721411](D:\Program Files\Typora\image\image-20240402103721411.png)
+![image-20240402103721411](https://github.com/LiangZii/rescueHouse/blob/master/iamges/image-20240402103721411.png)
 
 
 
@@ -159,7 +159,7 @@ Stm32采集到数据后，通过WIFI模块把数据传输给后端，后端接�
 
 除此之外，还可实现通过后台管理系统远程控制STM32模拟的应急救援仓的状态。
 
-![image-20240402104912456](D:\Program Files\Typora\image\image-20240402104912456.png)
+![image-20240402104912456](https://github.com/LiangZii/rescueHouse/blob/master/iamges/image-20240402104912456.png)
 
 
 
