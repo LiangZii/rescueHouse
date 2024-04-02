@@ -43,13 +43,13 @@
 
 该系统由以下几个组成部分：
 
-**前端：**用户可以通过前端页面查看数据，并控制系统的运行。前端使用VUE框架，开发过程简单，页面精美。
+**前端**：用户可以通过前端页面查看数据，并控制系统的运行。前端使用VUE框架，开发过程简单，页面精美。
 
-**后端：**负责处理数据的存储、处理和分析，以及与前端的通信交互。后端使用SpringBoot框架开发，使用MySQL数据库进行数据存储。
+**后端**：负责处理数据的存储、处理和分析，以及与前端的通信交互。后端使用SpringBoot框架开发，使用MySQL数据库进行数据存储。
 
-**STM32单片机：**用于采集各种传感器的数据，并将其发送到后端进行处理。使用STM32F407系列的单片机，通过I2C接口连接传感器，并使用WiFi模块将数据发送到后端服务器。
+**STM32单片机**：用于采集各种传感器的数据，并将其发送到后端进行处理。使用STM32F407系列的单片机，通过I2C接口连接传感器，并使用WiFi模块将数据发送到后端服务器。
 
-**传感器：**用于测量各种物理量，例如温度、湿度、光照等。
+**传感器**：用于测量各种物理量，例如温度、湿度、光照等。
 
 此系统能够为应急救援工作提供支持，实时展示数据并进行分析，帮助救援人员更好的了解事态和做出决策。
 
@@ -61,9 +61,10 @@
 
 2、 stm32接收到数据后，通过UART和WIFI模块，采用AT指令，把数据传输出去。
 
-![img](https://github.com/LiangZii/rescueHouse/blob/master/iamges/clip_image002.gif)     ![img](https://github.com/LiangZii/rescueHouse/blob/master/iamges/clip_image004.gif)
-
-​          图3.1光照传感器BH1750                           图3.2 PM2.5传感器_PMS9003M
+![img](https://github.com/LiangZii/rescueHouse/blob/master/iamges/clip_image002.gif)
+*图3.1光照传感器BH1750*
+![img](https://github.com/LiangZii/rescueHouse/blob/master/iamges/clip_image004.gif)
+*图3.2 PM2.5传感器_PMS9003M*
 
  
 
@@ -83,7 +84,7 @@ STA+AP 模式：两种模式的共存模式，即可以通过互联网控制可�
 
 ![img](https://github.com/LiangZii/rescueHouse/blob/master/iamges/clip_image010.gif)
 
-<center>图3.3 ESP8266引脚图</center>
+*图3.3 ESP8266引脚图*
 
 
 
@@ -103,11 +104,11 @@ Payload：消息的内容
 
 ![img](https://github.com/LiangZii/rescueHouse/blob/master/iamges/clip_image014.jpg)
 
-<center>图3.4 MQTT的三种身份 
+*图3.4 MQTT的三种身份* 
 
 ![img](https://github.com/LiangZii/rescueHouse/blob/master/iamges/clip_image016.jpg)
 
-<center>图3.5 MQTT消息传输过程
+*图3.5 MQTT消息传输过程*
 
 ## 3.3 数据存储模块
 
@@ -117,7 +118,7 @@ Stm32采集到数据后，通过WIFI模块把数据传输给后端，后端接�
 
 ![img](https://github.com/LiangZii/rescueHouse/blob/master/iamges/clip_image018.gif)
 
-<center>图3.6 数据库E-R图
+*图3.6 数据库E-R图*
 
 
 
