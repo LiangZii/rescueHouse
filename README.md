@@ -62,8 +62,10 @@
 2、 stm32接收到数据后，通过UART和WIFI模块，采用AT指令，把数据传输出去。
 
 ![img](https://github.com/LiangZii/rescueHouse/blob/master/iamges/clip_image002.gif)
+
 *图3.1光照传感器BH1750*
 ![img](https://github.com/LiangZii/rescueHouse/blob/master/iamges/clip_image004.gif)
+
 *图3.2 PM2.5传感器_PMS9003M*
 
  
@@ -117,7 +119,6 @@ Stm32采集到数据后，通过WIFI模块把数据传输给后端，后端接�
  
 
 ![img](https://github.com/LiangZii/rescueHouse/blob/master/iamges/clip_image018.gif)
-
 *图3.6 数据库E-R图*
 
 
